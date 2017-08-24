@@ -1,0 +1,35 @@
+body {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* Firefox */
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  /* Safari and Chrome */
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  /* W3C */
+  box-pack: center;
+  box-align: center;
+}
+
+#app {
+  font: 14px, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  min-width: 550px;
+  min-height: 850px;
+  margin: 0 auto;
+  align-content: center;
+}
+
+a.active {
+  color: orange;
+}
+
+nav {
+  padding-top: 20px;
+}
+
